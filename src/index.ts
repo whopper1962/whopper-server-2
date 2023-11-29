@@ -20,11 +20,11 @@ const handleRequest = async (req: Request, res: Response) => {
   const endpoint = originalUrl.split("?")[0];
 
   console.log(
-    `📫 HTTPMethod: ${req.method} , RequestURL: ${
+    `📫...HTTPMethod: ${req.method}...RequestURL: ${
       req.path
-    } , RequestBody: ${JSON.stringify(
+    }...RequestBody: ${JSON.stringify(
       req.body,
-    )} , RequestQuery: ${JSON.stringify(req.query)}`,
+    )}...RequestQuery: ${JSON.stringify(req.query)}...📦`,
   );
 
   try {
