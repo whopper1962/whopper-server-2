@@ -22,7 +22,7 @@ The default response configuration can be defined in /config/response.config.jso
 4. Run the Server:
 
 ```bash
-npm start
+npm run serve
 ```
 The server will be running at http://localhost:3000.
 
